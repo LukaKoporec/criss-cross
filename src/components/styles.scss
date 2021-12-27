@@ -1,0 +1,11 @@
+$successColor: blue;
+$errorColor: red;
+
+
+.success-message {
+    color: $successColor;
+}
+
+#error {
+    color: $errorColor;
+}
