@@ -2,28 +2,44 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="home">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="game-screen" className="center">
+  <table className="center">
+    <tr>
+      <td>
+        <button type="button" className="cell" id="cell00"></button>
+      </td>
+      <td>
+        <button type="button" className="cell" id="cell01"></button>
+      </td>
+      <td>
+        <button type="button" className="cell" id="cell02"></button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type="button" className="cell" id="cell10"></button>
+      </td>
+      <td>
+        <button type="button" className="cell" id="cell11"></button>
+      </td>
+      <td>
+        <button type="button" className="cell" id="cell12"></button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type="button" className="cell" id="cell20"></button>
+      </td>
+      <td>
+        <button type="button" className="cell" id="cell21"></button>
+      </td>
+      <td>
+        <button type="button" className="cell" id="cell22"></button>
+      </td>
+    </tr>
+  </table>
+  <button type="button" id="restart">Restart</button>
+</div>
   );
 }
 
